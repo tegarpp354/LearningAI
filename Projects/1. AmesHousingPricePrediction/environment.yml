@@ -1,0 +1,20 @@
+name: ameshousing-regression
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - xgboost
+  - lightgbm
+  - catboost
+  - joblib
+  - scikit-optimize
+  - pip
+  - pip:
+      - openpyxl  # untuk jaga-jaga saat export df ke Excel
